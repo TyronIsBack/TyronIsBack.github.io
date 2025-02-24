@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Contact Details</legend>
+            <!-- Text inputs-->
+            <label>Email:<br />
+                <input type="email" name="email" /></label><br />
+            <label>Username: <br />
+                <input type="text" name="username" maxlength="10" /> </label><br />
+            <label>Password:<br />
+                <input type="password" required="required" name="password" maxlength="10" /> </label><br />
+        </fieldset>
+
+        <p>Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked"  /> Rock
+            <input type="radio" name="genre" value="pop" /> Pop
+            <input type="radio" name="genre" value="jazz" /> Jazz
+        </p>
+
+        <p>Select yur favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="apple" /> Apple Music
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+            <input type="checkbox" name="service" value="pandora" /> Pandora
+        </p>
+
+        <p>What device do you listen to music on?
+            <br />
+            <select name="devices">
+                <option value="phone">Phone</option>
+                <option value="laptop">Laptop</option>
+                <option value="radio">Radio</option>
+            </select>
+        </p>
+        
+        <p>Do you play any of the following instruments?
+            <br />
+            <select name="instruments" size="3" multiple="multiple">
+                <option value="guitar">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="clarinet">Clarinet</option>
+                <option value="piano">Piano</option>
+            </select>
+        </p>
+        <p>Write a comment:
+            <br />
+            <textarea name="comment" cols="20" rows="4"></textarea>
+        </p>
+    </form>
+
+    <form action="#" method="POST">
+        <p>Upload your song in MP3 format:
+            <br />
+            <input type="file" name="user-song" />
+        </p>
+
+        <!-- Submit Button-->
+         <input type="Submit" value="Submit" />
+    </form>
+
+
+</body>
+
+</html>

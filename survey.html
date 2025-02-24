@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Let's know each other!</title>
+</head>
+
+<body>
+    <h1> I want to know you! </h1>
+    <p> Let's be honest, you didn't just stumble upon this site randomly. You must've seen my other web work on my original page, and if you're here, you want to know more about me.
+        That's great to hear, but I think it would only be fair if I got to survey you a bit. Don't worry, it's nothing much, just fill out the information below and I can at least know <del>who I'm looking at</del> <ins>who's behind the screen a bit</ins>. 
+    </p>
+
+    <form action="#" method="GET">
+        <fieldset>
+            <label>Name:<br/>
+                <input type="text" required="required" name="name" /><br/>
+            </label>
+            <label>Email:<br/>
+                <input type="email" required="required" name="email" /><br/>
+            </label>
+
+            <p>How did you find this site?</p>
+            <select name="origin">
+                <option value="none"></option>
+                <option value="portfolio">Portfolio</option>
+                <option value="curiosity">Curiosity</option>
+                <option value="recommended">Recommended</option>
+                <option value="idk">I don't know</option>
+            </select>
+
+            <p>Anything you'd like to say?
+                <br/>
+                <textarea name="message" cols="30" rows="5"></textarea>
+            </p>
+            
+            <input type="submit" value="Submit" /><br/>
+            <input type="reset" value="Reset" />
+        </fieldset>
+    </form>
+
+    <form action="#" method="GET">
+        <h2>Quick Survey</h2>
+        <p> I know that I've already asked enough information but if you're more than willing to answer a bit more, I got a quick survey for you. 
+            Nothing too bad, just some questions to answer so I can better my knowledge on making websites. This wiil help me a lot, so I hope you don't mind.
+        </p>
+
+        <fieldset>
+            <p>How did you find my portfoilo?
+                <br/>
+                <select name="reasons">
+                    <option value="GSearch">Google Search</option>
+                    <option value="GSearch">Social Media</option>
+                    <option value="GSearch">Referral</option>
+                    <option value="GSearch">Other</option>
+                </select>
+            </p>
+
+            <br/>
+            <p>Rate your overall experience on my site
+                <br/>
+                <input type="radio" name="number" value="0" /> 0
+                <input type="radio" name="number" value="1" /> 1
+                <input type="radio" name="number" value="2" /> 2
+                <input type="radio" name="number" value="3" /> 3
+                <input type="radio" name="number" value="4" /> 4
+                <input type="radio" name="number" value="5" /> 5
+            </p>
+
+            <br/>
+            <p>Any additonal comments?
+                <br/>
+                <textarea name="comment" cols="30" rows="5">Write your feedback here...</textarea>
+            </p>
+
+            <input type="submit" value="Submit" /><br/>
+            <input type="reset" value="Reset" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
