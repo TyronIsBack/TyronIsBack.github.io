@@ -1,0 +1,74 @@
+header {
+    background-color:green;
+    border: 3px solid black;
+    font-family:sans-serif
+}
+
+#Game {
+    background-color: darkgoldenrod;
+    border: 3px solid black;
+    font-family:monospace
+}
+
+#Movie {
+    background-color: blue;
+    border: 3px solid black;
+    font-family:Georgia
+}
+
+#Music {
+    background-color: darkviolet;
+    border: 3px solid black;
+    font-family: cursive;
+}
+
+#Lethal_Company{
+    font-family: monospace;
+    font-size: large;
+    color:red
+}
+
+aside{
+    background-color: blue;
+    font-family: Arial;
+    font-size: large;
+    color:white;
+    border: 3px solid white;
+}
+
+#Yapping{
+    background-color:coral;
+    background-size:contain;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+}
+
+#Disney{
+    background-color:pink;
+    background-size: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Schedule{
+    background-color:beige;
+    background-size:contain;
+    font-family:Arial;
+}
+
+#Events{
+    background-color:cadetblue;
+    background-size:contain;
+    font-family:sans-serif;
+}
+
+#Information{
+    background-color:burlywood;
+    background-size:auto;
+    border: 3px solid black;
+}
+
+#Survey{
+    background-color:aquamarine;
+    background-size:auto;
+    border: 3px solid black;
+}
