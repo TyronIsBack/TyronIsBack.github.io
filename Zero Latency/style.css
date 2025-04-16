@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap');
+* {
+    color: rgb(212,216,219);
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(3,31,43);
+}
+/* For buttons rgb(79,190,237 */
+
