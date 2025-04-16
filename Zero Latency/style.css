@@ -9,12 +9,6 @@
 body{
     background-color: black;
 }
-#logo{
-    width: 150px;
-    height: 60px;
-    margin-right: 85%;
-    justify-content: left;
-}  
 nav{
     background-color: rgb(3,31,43);
     padding: 30px;
@@ -22,9 +16,23 @@ nav{
     justify-content: center;
 }
 
+#logo{
+    width: 150px;
+    height: 60px;
+}  
+
 .NavButtons{
     padding-left: 30px;
     align-content: center;
+    margin-right: 10%;
+    font-size: larger;
 }
+
+video{
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 /* For buttons rgb(79,190,237) */
 
