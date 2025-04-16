@@ -2,10 +2,29 @@
 * {
     color: rgb(212,216,219);
     text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+body{
+    background-color: black;
+}
+#logo{
+    width: 150px;
+    height: 60px;
+    margin-right: 85%;
+    justify-content: left;
+}  
 nav{
     background-color: rgb(3,31,43);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
-/* For buttons rgb(79,190,237 */
+
+.NavButtons{
+    padding-left: 30px;
+    align-content: center;
+}
+/* For buttons rgb(79,190,237) */
 
