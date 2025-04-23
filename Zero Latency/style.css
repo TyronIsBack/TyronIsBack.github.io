@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Orbitron';
 }
 
 body {
-    background-color: black;
+    background-color: rgb(3,31,43);
     color: rgb(212,216,219);
     text-align: center;
 }
@@ -46,6 +47,8 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+
 video{
     border-radius: 20px;
     justify-content: center;
@@ -56,26 +59,33 @@ video{
     display: grid;
     flex: auto;
     font-size: 20px;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     align-items: center;
     grid-template-columns: 1fr fr;
     column-gap: 20%;
+}
+
+.indexHeaders{
+    margin-bottom: 30px;
 }
 
 .Left{
     display: flex;
     float: left;
     justify-content: center;
+    align-items: center;
 }
 
 .Right{
     display: flex;
     float: right;
     justify-content: center;
+    align-items: center;
 }
 
 footer{
-    background-color: rgb(3,31,43);
+    background-color: black;
     padding: 30px;
     border-radius: 10%;
     display: flex;
