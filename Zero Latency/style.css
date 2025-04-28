@@ -35,8 +35,12 @@ nav {
     font-size: 1.5rem;
     text-align: center;
     width: 24rem;
+    color: white;
 }
 
+a{
+    text-decoration: none;
+}
 #ZLBanner{
     margin: 0 auto 100px;
 }
@@ -48,12 +52,38 @@ nav {
     justify-content: center;
 }
 
+#BannerText{
+    position: absolute;
+    top: 12%;
+    right: 25%;
+    align-content: center;
+    color: black;
+    font-size: larger;
+    font-style: italic;
+}
+
+#TopT{
+    align-content: center;
+    font-weight: 1000;
+}
+
+#MiddleT{
+    align-content: center;
+    font-weight: 750;
+}
+
+#BottomT{
+    padding-top: 7px;
+    align-content: center;
+}
 
 video{
     border-radius: 20px;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
+
 #One, #Two, #Three{
     justify-content: center;
     display: grid;
@@ -102,6 +132,20 @@ footer{
     padding-left: 30px;
     align-content: center;
     font-size: small;
+}
+
+/* Visit Us Page Styling */
+iframe{
+    align-content: center;
+    flex: auto;
+}
+
+#VUBannerCaption{
+    font-weight: 750;
+    font-size: 55px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
 }
 /* For buttons rgb(79,190,237) */
 
