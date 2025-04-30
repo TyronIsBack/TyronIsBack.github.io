@@ -3,29 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Orbitron';
 }
 
 body {
-    background-color: black;
-    color: rgb(212,216,219);
-    text-align: center;
-}
-
-nav {
-    background-color: rgb(3,31,43);
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-body {
     background-color: rgb(3,31,43);
     color: rgb(212,216,219);
     text-align: center;
@@ -35,18 +16,15 @@ nav {
     background-color: rgb(3,31,43);
     padding: 30px;
     display: flex;
+    flex: auto;
     justify-content: center;
 }
 
-#header-logo {
+#nav-logo {
     width: 150px;
     position: absolute;
     top: 18px;
     left: 65px;
-}
-
-#footer-logo {
-    width: 150px;
 }
 
 .NavButtons{
@@ -54,25 +32,75 @@ nav {
     font-size: 1.5rem;
     text-align: center;
     width: 24rem;
+    color: white;
 }
 
+@media only screen and (max-width: 600px) {
+    nav{
+        padding: 15px;
+    }
+    #nav-logo{
+        width: 60px;
+        height: fit-content;
+        position: absolute;
+        top: 15px;
+        left: 7px;
+    }
+    .NavButtons{
+        font-size: 1rem;
+        width: 12rem;
+    }
+    /*#BannerText, #VUBannerCaption{
+
+    }*/
+}
+
+a{
+    text-decoration: none;
+}
 #ZLBanner{
     margin: 0 auto 100px;
 }
 
 #Banner{
     width: 100%;
-    height: 800px;
+    max-height: auto;
     align-items: center;
     justify-content: center;
 }
 
+#BannerText{
+    position: absolute;
+    top: 12%;
+    right: 25%;
+    align-content: center;
+    color: black;
+    font-size: larger;
+    font-style: italic;
+}
+
+#TopT{
+    align-content: center;
+    font-weight: 1000;
+}
+
+#MiddleT{
+    align-content: center;
+    font-weight: 750;
+}
+
+#BottomT{
+    padding-top: 7px;
+    align-content: center;
+}
 
 video{
     border-radius: 20px;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
+
 #One, #Two, #Three{
     justify-content: center;
     display: grid;
@@ -111,84 +139,10 @@ footer{
     justify-content: center;
 }
 
-.FooterOptions{
-    padding-left: 30px;
-    align-content: center;
-    font-size: larger;  
-}
-
-#Copyright{
-    padding-left: 30px;
-    align-content: center;
-    font-size: small;
-}
-/* For buttons rgb(79,190,237) */
-
-#header-logo {
-    width: 150px;
-    position: absolute;
-    top: 18px;
-    left: 65px;
-}
-
 #footer-logo {
     width: 150px;
 }
 
-.NavButtons{
-    align-content: center;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 24rem;
-}
-
-#ZLBanner{
-    margin: 0 auto 100px;
-}
-
-#Banner{
-    width: 100%;
-    height: 800px;
-    align-items: center;
-    justify-content: center;
-}
-video{
-    border-radius: 20px;
-    justify-content: center;
-    margin-top: 20px;
-}
-#One, #Two, #Three{
-    justify-content: center;
-    display: grid;
-    flex: auto;
-    font-size: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    align-items: center;
-    grid-template-columns: 1fr fr;
-    column-gap: 20%;
-}
-
-.Left{
-    display: flex;
-    float: left;
-    justify-content: center;
-}
-
-.Right{
-    display: flex;
-    float: right;
-    justify-content: center;
-}
-
-footer{
-    background-color: rgb(0, 0, 0);
-    padding: 30px;
-    border-radius: 10%;
-    display: flex;
-    justify-content: center;
-}
-
 .FooterOptions{
     padding-left: 30px;
     align-content: center;
@@ -201,13 +155,77 @@ footer{
     font-size: small;
 }
 
-a{  
-    text-decoration: none;
-    color: white;
+/* Visit Us Page Styling */
+#VUBannerCaption{
+    font-weight: 750;
+    font-size: 55px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
 }
 
-table{
-    align-items: center;
+#VDetails{
+    display: grid;
+    flex: auto;
+    grid-template-columns: 1fr;
+    float: left;
+    padding: 20px;
+    text-align: left;
+    margin-left: 8%;
+}
+
+#DetailTitle{
+    font-size: 45px;
+    font-weight: 75%;
+}
+
+.HeadDetails, .Details{
+    margin-top: 30px;
+}
+
+.HeadDetails{
+    color: rgb(79,190,237);
+    font-weight: 60%;
+}
+
+.Details{
+    font-weight: 50%;
+    margin-bottom: 10px;
+}
+
+iframe{
+    align-content: center;
+    flex: auto;
+    margin-bottom: 100px;
+}
+
+#CForm{
+    background-color: white;
+}
+
+#CHeader{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 50%;
+}
+
+#CCaption{
+    color: black;
+    margin-bottom: 20px;
+}
+
+label{
+    color: black;
+}
+
+input, textarea{
+    background-color: rgba(0,0,0,0.1);
+    border-color: gray;
+}
+
+textarea{
+    margin-top: 20px;
 }
 /* For buttons rgb(79,190,237) */
 
