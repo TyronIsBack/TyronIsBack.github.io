@@ -35,26 +35,6 @@ nav {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
-    nav{
-        padding: 15px;
-    }
-    #nav-logo{
-        width: 60px;
-        height: fit-content;
-        position: absolute;
-        top: 15px;
-        left: 7px;
-    }
-    .NavButtons{
-        font-size: 1rem;
-        width: 12rem;
-    }
-    /*#BannerText, #VUBannerCaption{
-
-    }*/
-}
-
 a{
     text-decoration: none;
 }
@@ -229,3 +209,37 @@ textarea{
 }
 /* For buttons rgb(79,190,237) */
 
+@media only screen and (max-width: 600px) {
+    nav{
+        padding: 15px;
+    }
+
+    #nav-logo{
+        width: 60px;
+        height: fit-content;
+        position: absolute;
+        top: 6px;
+        left: 125px;
+    }
+
+    .NavButtons{
+        font-size: 1rem;
+        width: 12rem;
+    }
+
+    #BannerText h1, #VUBannerCaption{
+        font-size: 10px;
+        align-content: center;
+    }
+
+    #One, #Two, #Three{
+        display: flex;
+        left: 23%;
+        font-size: 20%;
+    }
+
+    .indexHeaders{
+        position: absolute;
+        left: 20%;
+    }
+}
